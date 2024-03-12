@@ -1,43 +1,31 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f6f7;
+    background-color: #f3e5f5; /* Màu nền tím nhạt */
+    color: #333;
     padding: 20px;
 }
 
-h1, p {
-    color: #333;
+h1 {
+    color: #8e44ad; /* Màu tím đậm */
 }
 
 fieldset {
-    border: 2px solid #ddd;
-    padding: 10px;
+    border-color: #9b59b6; /* Màu tím */
     margin-bottom: 20px;
 }
 
 legend {
-    padding: 0 10px;
-    color: #e67e22;
-}
-
-label {
-    display: block;
-    margin: 5px 0;
-}
-
-input[type="text"] {
-    margin-top: 5px;
+    color: #8e44ad; /* Màu tím đậm */
 }
 
 button {
-    display: inline-block;
-    background-color: #e67e22;
+    background-color: #9b59b6; /* Màu tím */
     color: white;
-    padding: 10px 15px;
     border: none;
+    padding: 10px 20px;
     cursor: pointer;
-    border-radius: 5px;
 }
 
 button:hover {
-    background-color: #cf6412;
+    background-color: #8e44ad; /* Màu tím đậm hơn */
 }
