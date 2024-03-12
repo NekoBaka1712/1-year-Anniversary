@@ -24,7 +24,24 @@
         <img src="memory10.jpg" alt="Kỷ niệm 10">
     </div>
     <form action="https://formspree.io/f/xqkrlgwv" method="POST" id="anniversaryPlanForm">
-        <!-- Các trường form của bạn ở đây -->
+        <fieldset>
+            <legend>Ăn sáng</legend>
+            <label><input type="radio" name="breakfast" value="Bánh căn"> Bánh căn</label><br>
+            <label><input type="radio" name="breakfast" value="Phở"> Phở</label><br>
+            <label><input type="radio" name="breakfast" value="Các loại bún"> Các loại bún</label><br>
+            <label><input type="radio" name="breakfast" value="Bánh cuốn"> Bánh cuốn</label><br>
+            <label><input type="radio" name="breakfast" value="Bánh ướt"> Bánh ướt</label><br>
+            <label><input type="radio" name="breakfast" value="Khác"> Khác - Vui lòng ghi chú bên dưới:</label>
+            <input type="text" id="otherBreakfast" name="otherBreakfast" placeholder="Món ăn sáng khác">
+        </fieldset>
+        <fieldset>
+            <legend>Ăn trưa</legend>
+            <label><input type="radio" name="lunch" value="Các loại bún"> Các loại bún</label><br>
+            <label><input type="radio" name="lunch" value="Đi ăn đồ nướng"> Đi ăn đồ nướng</label><br>
+            <label><input type="radio" name="lunch" value="Đi ăn gà rán"> Đi ăn gà rán</label><br>
+            <label><input type="radio" name="lunch" value="Khác"> Khác - Vui lòng ghi chú bên dưới:</label>
+            <input type="text" id="otherLunch" name="otherLunch" placeholder="Món ăn trưa khác">
+        </fieldset>
         <button type="submit">Gửi Lựa Chọn</button>
     </form>
 </body>
